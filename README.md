@@ -17,7 +17,7 @@ I construct the repository in the following structure:
 
   - clean_data
 
-    - a concated tabel that aggregate all the data we use (.csv)
+    - a concated tabel (master table) that aggregate all the data we use (.csv)
     - subject_1
 
     ... 
@@ -25,6 +25,9 @@ I construct the repository in the following structure:
 - figs
 
 - scripts
+
+  - preprocess (any script that contribute to raw_data, clean_data and the master table)
+  - analysis (any operation on the master table)
 
 - presentation
 
