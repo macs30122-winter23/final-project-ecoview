@@ -6,6 +6,12 @@ For example, if a state has a partisan lean of R+5, that means it is 5 percentag
 
 The 2022 data is based on 2022 mid-term election. 
 
+
+
 Positive: Red leaning 
 
 Negative: Blue leaning
+
+
+
+51 observations (50 states and Washington, DC)
