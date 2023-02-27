@@ -8,9 +8,9 @@ The 2022 data is based on 2022 mid-term election.
 
 
 
-Positive: Red leaning 
+Negative: Red leaning 
 
-Negative: Blue leaning
+Positive: Blue leaning
 
 
 
