@@ -24,8 +24,10 @@ df_population = pd.read_excel(os.path.join(root_path,
                                             'state_population',
                                             'state_population.xlsx'),
                                             engine='openpyxl')
-df = df.merge(df_population)
+df_merged = df.merge(df_population)
+df_merged['eminssion per capita'] = df_merged['Total_emissions'] / df_merged['Population']
+df_merged.drop(['Total_emissions'], axis=1, inplace=True)
 
 # save
-df.to_csv(os.path.join(root_path,
+df_merged.to_csv(os.path.join(root_path,
                     'data', 'clean_data','final_data_with_population.csv'))
