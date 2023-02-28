@@ -4,6 +4,8 @@ Concate political leaning data from 2018 to 2022
 Note as political geography changes every two years, the 2019 and 2021 data 
 takes the mean of the conjacent years
 e.g. L(2019) = avg(L(2018), L(2020))
+
+Author: Anmin Yang
 """
 import numpy as np 
 import pandas as pd 
@@ -50,4 +52,5 @@ df = pd.concat([df_two_year,
 df.to_csv(os.path.join(root_path,
                     'data', 'clean_data',
                     'political_leaning',
-                    'political_leaning_2018-2021.csv'))
+                    'political_leaning_2018-2021.csv'),
+        index=False)

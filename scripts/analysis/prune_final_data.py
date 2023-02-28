@@ -1,7 +1,9 @@
 """
 Modify final data
 1. drop redundent columns
-2. add state population( https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1)
+2. add state population(https://www.statsamerica.org/sip/rank_list.aspx?rank_label=pop1)
+
+Author: Anmin Yang
 """
 import numpy as np 
 import pandas as pd 
