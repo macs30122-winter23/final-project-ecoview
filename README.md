@@ -33,7 +33,8 @@ The repository is structured in the following way:
     - Electricity_Generation_ratio 
     - Political_leaning 
 
-- figs
+- [**figs**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/figs)
+  The visualization result of our project
 
 - [**scripts**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
 
