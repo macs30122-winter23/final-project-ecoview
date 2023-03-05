@@ -7,7 +7,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 The repository is structured in the following way:
 
 
-- [data](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
+- [**data**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
 
   - raw_data
 
@@ -35,14 +35,14 @@ The repository is structured in the following way:
 
 - figs
 
-- scripts
+- [**scripts**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
 
   - Data_Collection (any operation on getting data)
   - Data_Visualization (any code on visualizing)
   - preprocess (any script that contribute to raw_data, clean_data and the master table)
   - analysis (any operation on the master table)
 
-- presentation
+- [**presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   - Slides (explictly illustrating our project and result)
 
 
