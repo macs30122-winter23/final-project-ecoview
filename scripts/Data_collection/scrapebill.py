@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 import csv
@@ -59,4 +58,3 @@ with open(filename, 'w', newline='') as csvfile:
     for bill in bill_info:
         writer.writerow(bill)
 
->>>>>>> 5b5a261 (scrape)
