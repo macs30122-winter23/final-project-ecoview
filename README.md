@@ -7,7 +7,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 The repository is structured in the following way:
 
 
-- [data]([https://link-url-here.org](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data))
+- [data](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
 
   - raw_data
 
