@@ -1,21 +1,23 @@
 """
-Data Visualization:
-distinct features in US Maps:
+Data Visualization in US Maps:
+
+Distinct features in US Maps:
 1. Environmenatl Factors
 2. Political Leaning
 
-ordered by time 
-Author: Anmin Yang 
+ordered by time
+
+@author Anmin Yang
 """
-import numpy as np 
-import pandas as pd 
-import os 
+import numpy as np
+import pandas as pd
+import os
 import plotly.express as px
 import plotly.data as data
 import plotly.io as pio
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
-# load data 
+# load data
 root_path = os.path.abspath(os.path.join(os.getcwd(), "../.."))
 df_feature_path = os.path.join(root_path,
                        'data', 'clean_data',
@@ -36,16 +38,16 @@ df_feature['state_ab'] = df_feature['State'].map(state_map)
 save_path = os.path.join(root_path, 'figs', 'choropleth')
 
 
-### main loop 
+### main loop
 years = [2018, 2019, 2020, 2021]
 features = df_feature.columns.to_list()[2:-1]
 for year in years:
     for feature in features:
         df_temp = df_feature[df_feature['year'] == year]
-        
+
         fig = px.choropleth(df_temp,
-                            locations='state_ab', 
-                            locationmode="USA-states", 
+                            locations='state_ab',
+                            locationmode="USA-states",
                             scope="usa",
                             color=feature,
                             color_continuous_scale="plasma")
@@ -64,6 +66,6 @@ for year in years:
                 size=30,
             )
         )
-        
-        fig.write_image(os.path.join(save_path, f'{year} {feature}.png'), 
+
+        fig.write_image(os.path.join(save_path, f'{year} {feature}.png'),
                         width=10*300, height=5*300, scale=1)
