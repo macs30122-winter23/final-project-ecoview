@@ -2,7 +2,7 @@
 Data Visualization in US Maps:
 
 Distinct features in US Maps:
-1. Environmenatl Factors
+1. Environmental Factors
 2. Political Leaning
 
 ordered by time
