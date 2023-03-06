@@ -7,7 +7,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 The repository is structured in the following way:
 
 
-- [**data**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
+- [**Data**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
 
   - raw_data
 
@@ -33,17 +33,18 @@ The repository is structured in the following way:
     - Electricity_Generation_ratio 
     - Political_leaning 
 
-- [**figs**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/figs)
+- [**Figs**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/figs)
+  
   The visualization result of our project
 
-- [**scripts**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
+- [**Scripts**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
 
   - Data_Collection (any operation on getting data)
   - Data_Visualization (any code on visualizing)
   - preprocess (any script that contribute to raw_data, clean_data and the master table)
   - analysis (any operation on the master table)
 
-- [**presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
+- [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   - Slides (explictly illustrating our project and result)
 
 
