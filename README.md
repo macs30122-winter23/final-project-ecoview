@@ -2,6 +2,8 @@ Hi, all!
 
 We at EcoView are dedicated to exploring the relationship between political leaning and sustainability in each state of the United States. 
 
+# Our Project
+
 To achieve this goal, we have created a GitHub repository containing all the raw data and code used in our project. 
 
 The repository is structured in the following way:
