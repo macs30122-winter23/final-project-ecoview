@@ -1,4 +1,4 @@
-<div align="center">
+
 File Title | The number of row |
 --- | --- |
 scrapepolicyscore.py | 36
@@ -14,4 +14,4 @@ employment_preprocess.py | 240
 normalization.py | 65
 heat_map.py | 42
 ols_regression.py | 44
-</div>
+
