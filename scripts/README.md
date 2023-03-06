@@ -1,6 +1,6 @@
 As our codes are developed by different team members, we do not compile them into a single document. 
-The table below provides a detailed view of each code.
 
+The table below provides a detailed view of each code.
 
 File Title | The number of row |
 --- | --- |
