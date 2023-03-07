@@ -61,6 +61,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 - [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   
   - [Slides (explictly illustrating our project and result)](https://github.com/macs30122-winter23/final-project-ecoview/blob/main/presentation/Ecoview.pptx)
+  - [Project writeup (a more in depth document of our project)] (TBD)
   - [Video](TBD)
   
 ## Division
