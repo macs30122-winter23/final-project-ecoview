@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Read normalized data
-norm_df = pd.read_csv('../data/clean_data/all_data_norm.csv', index_col=0)
+norm_df = pd.read_csv('../../data/clean_data/all_data_norm.csv', index_col=0)
 
 #Calculate the average of four years
 avg_df = norm_df.drop(columns=['Year']).groupby(['State']).mean()
