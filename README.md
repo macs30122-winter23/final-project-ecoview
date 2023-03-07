@@ -50,6 +50,8 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 - [**Figs**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/figs)
   
   The visualization result of our project
+  
+  [Iterable Tableau Dashboard](https://public.tableau.com/app/profile/hantao.xiao/viz/Ecoview/Dashboard1?publish=yes)
 
 - [**Scripts**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
 
