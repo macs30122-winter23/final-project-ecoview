@@ -66,7 +66,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 
   - Violet Huang (details)
   - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Analysis: (Panel Regression)}
-  - Anmin Yang (details)
+  - Anmin Yang {Data collection: (Political Leaning, State Population, AQI), Preprocess: (good_day_ratio, political leaning missing value, final data incorpretation), Analysis: (dimension reduction), Visualization: (features on US map)}
 
 ## Library
   - Pandas: 1.3.3
