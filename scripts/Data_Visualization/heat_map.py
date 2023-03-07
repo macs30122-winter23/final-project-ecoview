@@ -1,8 +1,11 @@
+'''
+This file plots and saves the heat map for each year's data and the averaged data
+'''
+
 #Import necessary packages
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 
 #Read normalized data
 norm_df = pd.read_csv('../data/clean_data/all_data_norm.csv', index_col=0)
@@ -16,27 +19,22 @@ df_2019 = norm_df[norm_df['Year'] == 2019]
 df_2020 = norm_df[norm_df['Year'] == 2020]
 df_2021 = norm_df[norm_df['Year'] == 2021]
 
-#Heat map for average data
-_, ax = plt.subplots(figsize=(13,13))
-hm_avg = sns.heatmap(avg_df[avg_df.columns.to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
-hm_avg.figure.savefig('heatmap_average.png')
+def plot_heatmap(data, name):
+    '''
+    This function plots and saves the heat map for the given data frame
+    Inputs:
+        data (dataframe): dataframe for the analysis
+        name (string): name of the heat map to be saved
+    '''
+    _, ax = plt.subplots(figsize=(13,13))
+    if name == 'heatmap_average.png':
+        hm = sns.heatmap(data[data.columns.to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
+    else:
+        hm = sns.heatmap(data[data.columns[2:].to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
+    hm.figure.savefig(name)
 
-#Heat map for 2018 data
-_, ax = plt.subplots(figsize=(13,13))
-hm_2018 = sns.heatmap(df_2018[df_2018.columns[2:].to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
-hm_2018.figure.savefig('heatmap_2018.png')
-
-#Heat map for 2019 data
-_, ax = plt.subplots(figsize=(13,13))
-hm_2019 = sns.heatmap(df_2019[df_2019.columns[2:].to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
-hm_2019.figure.savefig('heatmap_2019.png')
-
-#Heat map for 2020 data
-_, ax = plt.subplots(figsize=(13,13))
-hm_2020 = sns.heatmap(df_2020[df_2020.columns[2:].to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
-hm_2020.figure.savefig('heatmap_2020.png')
-
-#Heat map for 2021 data
-_, ax = plt.subplots(figsize=(13,13))
-hm_2021 = sns.heatmap(df_2021[df_2021.columns[2:].to_list()].corr(),annot=True,cmap='RdYlGn', ax=ax);
-hm_2021.figure.savefig('heatmap_2021.png')
+plot_heatmap(avg_df, 'heatmap_average.png')
+plot_heatmap(df_2018, 'heatmap_2018.png')
+plot_heatmap(df_2019, 'heatmap_2019.png')
+plot_heatmap(df_2020, 'heatmap_2020.png')
+plot_heatmap(df_2021, 'heatmap_2021.png')
