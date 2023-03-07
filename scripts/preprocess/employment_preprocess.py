@@ -1,3 +1,11 @@
+'''
+This file 
+- cleans the data for variables related to clean energy jobs (clean energy jobs employment, clean energy jobs growth, clean energy jobs share)
+- deals with missing data by approximating it using linear regression
+- combines with other data sources to calculate the 3 variables mentioned above
+- exports the data needed in a csv file
+'''
+
 #Import necessary packages
 import pandas as pd
 import numpy as np
