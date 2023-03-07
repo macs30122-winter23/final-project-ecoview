@@ -1,3 +1,8 @@
+'''
+This file collects the data needed for variables related to clean energy jobs.
+It exports each year's data about clean energy jobs to a csv file
+'''
+
 #Import necessary packages
 import tabula as tb
 import pandas as pd
