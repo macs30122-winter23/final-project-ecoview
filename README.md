@@ -56,7 +56,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
   - Data_Collection (any operation on getting data)
   - Data_Visualization (any code on visualizing)
   - preprocess (any script that contribute to raw_data, clean_data and the master table)
-  - analysis (any operation on the master table)
+  - Analysis (any operation on the master table)
 
 - [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   
@@ -65,7 +65,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 ## Division
 
   - Violet Huang (details)
-  - Hantao Xiao (Data collection(Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), analysis(Panel Regression))
+  - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Analysis: (Panel Regression)}
   - Anmin Yang (details)
 
 ## Library
