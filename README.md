@@ -77,7 +77,7 @@ Climate change has become a universal challenge that needs to be addressed urgen
 - [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   
   - [Slides (explictly illustrating our project and result)](https://github.com/macs30122-winter23/final-project-ecoview/blob/main/presentation/Ecoview.pptx)
-  - [Project writeup (a more in depth document of our project)] (https://docs.google.com/document/d/1TcjIDgm2luq_RsLorI6NWwz8-W1yQVaeDK7rlCzl9Bo/edit)
+  - [Project writeup (a more in depth document of our project)](https://docs.google.com/document/d/1TcjIDgm2luq_RsLorI6NWwz8-W1yQVaeDK7rlCzl9Bo/edit)
   - [Video](TBD)
   
 ## Division
