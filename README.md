@@ -16,7 +16,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 
   - In cross-sectional analysis, sustainable policy score is the only steady indicator of political leaning. The higher the sustainable policy score, the bluer the states.
 
-  - **Emission_per_capital, Policy_Score, Share** has a lag effect on Political leaning which aligns to our hypothesis
+  - **[Emission_per_capital](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Emission_per_capital), [Policy_Score](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Energy_efficiency_score), [Share](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Employment)** has a lag effect on Political leaning which aligns to our hypothesis
 
 
 ## Structure of our GitHub: 
@@ -63,7 +63,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 - [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   
   - [Slides (explictly illustrating our project and result)](https://github.com/macs30122-winter23/final-project-ecoview/blob/main/presentation/Ecoview.pptx)
-  - [Project writeup (a more in depth document of our project)](https://github.com/macs30122-winter23/final-project-ecoview/blob/main/presentation/Project_Writeup.md)
+  - [Project writeup (a more in depth document of our project)] (TBD)
   - [Video](TBD)
   
 ## Division
