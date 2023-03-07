@@ -15,6 +15,6 @@ map_visual.py | 71
 employment.py | 94
 employment_preprocess.py | 240
 normalization.py | 65
-heat_map.py | 42
+heat_map.py | 40
 ols_regression.py | 72
 **Total** | **972**
