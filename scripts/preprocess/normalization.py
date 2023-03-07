@@ -1,3 +1,7 @@
+'''
+This file normalizes all data by year and exports the normalized data 
+'''
+
 #Import necessary packages
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -63,4 +67,3 @@ norm_concat = pd.concat([norm_2018_df, norm_2019_df, norm_2020_df, norm_2021_df]
 
 #Export data
 norm_concat.to_csv('all_data_norm.csv')
-
