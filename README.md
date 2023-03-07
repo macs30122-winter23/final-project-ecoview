@@ -4,7 +4,7 @@ We are dedicated to exploring the relationship between political leaning and sus
 
 To achieve this goal, we have created a GitHub repository containing all the raw data and code used in our project. 
 
-# Our Project: 
+## Our Project: 
 
   - Exploring the Link between the Political Leaning & Sustainability of Each State In U.S.
 
