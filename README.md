@@ -30,7 +30,7 @@ Climate change has become a universal challenge that needs to be addressed urgen
 
   - In cross-sectional analysis, sustainable policy score is the only steady indicator of political leaning. The higher the sustainable policy score, the bluer the states.
 
-  - **[Emission_per_capital](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Emission_per_capital), [Policy_Score](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Energy_efficiency_score), [Share](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Employment)** has a lag effect on Political leaning which aligns to our hypothesis
+  - **[Emission_per_capita](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Emission_per_capital), [Policy_Score](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Energy_efficiency_score), [Share](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data/clean_data/Employment)** has a lag effect on Political leaning which aligns to our hypothesis
 
 
 ## Structure of our GitHub: 
@@ -53,7 +53,7 @@ Climate change has become a universal challenge that needs to be addressed urgen
     - a concated tabel (master table) that aggregate all the data we use (.csv)
     - GOOD_DAY_RATIO
     - BILL
-    - Emission_PER_CAPITAL
+    - Emission_PER_CAPITA
     - EMPLOYMENT
     - SHARE
     - GROW
@@ -83,7 +83,7 @@ Climate change has become a universal challenge that needs to be addressed urgen
 ## Division
 
   - Violet Huang {Data collection: (Clean_Energy_Jobs_Employment, Clean_Energy_Jobs_Growth, Clean_Energy_Jobs_Share), Preproces: (normalization of dataset, Clean_Energy_Jobs missing value), Analysis: (OLS Regression), Visualization: (heatmap)}
-  - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Preprocess:(Electricity_Generation_ratio, Emission_PER_CAPITAL), Analysis: (Panel Regression), Visualization: (Iterable Tableau Dashboard)}
+  - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Preprocess:(Electricity_Generation_ratio, Emission_PER_CAPITA), Analysis: (Panel Regression), Visualization: (Iterable Tableau Dashboard)}
   - Anmin Yang {Data collection: (Political Leaning, State Population, AQI), Preprocess: (good_day_ratio, political leaning missing value, final data incorpretation), Analysis: (dimension reduction), Visualization: (features on US map)}
 
 ## Library
