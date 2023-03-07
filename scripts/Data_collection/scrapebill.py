@@ -1,3 +1,7 @@
+'''
+This file is responsible for scraping the bills belonging to Environmental Protection from all U.S. states between the years 2018 and 2021.
+'''
+
 import requests
 from bs4 import BeautifulSoup
 import csv
