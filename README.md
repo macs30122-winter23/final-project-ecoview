@@ -29,14 +29,14 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 
   - raw_data
 
-    - AQI(Air quality Index)
-    - Bill
-    - Emission
-    - Employment
-    - Energy_Efficiency_score
-    - Electricity_Generation_ratio 
-    - Political_leaning
-    - State_population
+    - AQI(Air quality Index) [link](https://aqs.epa.gov/aqsweb/airdata/download_files.html)
+    - Bill [link](https://www.govtrack.us)
+    - Emission [link](https://e2.org/resources/?type_param=report_post)
+    - Employment [link](https://www.epa.gov/ghgreporting)
+    - Energy_Efficiency_score [link](https://www.aceee.org/)
+    - Electricity_Generation_ratio [link](https://www.eia.gov/)
+    - Political_leaning [link](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
+    - State_population [link](https://www.census.gov/)
 
   - clean_data
 
