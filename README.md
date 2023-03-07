@@ -26,9 +26,9 @@ To achieve this goal, we have created a GitHub repository containing all the raw
   - raw_data
 
     - AQI(Air quality Index) [link](https://aqs.epa.gov/aqsweb/airdata/download_files.html)
-    - Bill [link](https://www.govtrack.us)
-    - Emission [link](https://e2.org/resources/?type_param=report_post)
-    - Employment [link](https://www.epa.gov/ghgreporting)
+    - Bill [link](https://www.govtrack.us/congress/bills/subjects/environmental_protection/6038)
+    - Emission [link](https://www.epa.gov/ghgreporting)
+    - Employment [link](https://e2.org/resources/?type_param=report_post)
     - Energy_Efficiency_score [link](https://www.aceee.org/)
     - Electricity_Generation_ratio [link](https://www.eia.gov/)
     - Political_leaning [link](https://fivethirtyeight.com/features/how-red-or-blue-is-your-state-your-congressional-district/)
