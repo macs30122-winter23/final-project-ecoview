@@ -7,6 +7,9 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 ## Our Project: 
 
   - Exploring the Link between the Political Leaning & Sustainability of Each State In U.S.
+  - We define Political Leaning as the extent of a state being Democratic or Republican.
+  - We conceptualize Sustainability as the efforts and effects of a state in conserving environment and using renewable resources.  
+  - We break Sustainability down into four concepts: clean energy jobs, clean energy share, legislative efforts, and environmental quality.
 
 ## Hypothesis:
 
