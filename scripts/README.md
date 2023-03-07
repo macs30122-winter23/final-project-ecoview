@@ -14,7 +14,7 @@ prune_final_data.py | 36
 map_visual.py | 71
 employment.py | 99
 employment_preprocess.py | 250
-normalization.py | 69
+normalization.py | 66
 heat_map.py | 40
 ols_regression.py | 72
-**Total** | **987**
+**Total** | **984**
