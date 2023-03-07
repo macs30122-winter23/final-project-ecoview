@@ -4,7 +4,7 @@ We are dedicated to exploring the relationship between sustainability andpolitic
 
 To achieve this goal, we have created a GitHub repository containing all the raw data and code used in our project. 
 
-# Background:
+## Background:
 
 Climate change has become a universal challenge that needs to be addressed urgently. According to the United Nation’s report, global greenhouse gas emissions need to reach net zero by 2050 to successfully halt climate change. Despite the urgency of such task, there is still a divide in the recognition of the urgency of climate change among partisan lines in the U.S.. In a survey conducted by Pew Research Center in 2020, 75% of Democrats think climate change should be a top priority for the president and the Congress, while only 21% of Republicans think the same.
 
@@ -19,6 +19,12 @@ Climate change has become a universal challenge that needs to be addressed urgen
 ## Hypothesis:
 
   - States with more sustainability efforts are more democratic
+
+## Significance:
+  - This project is significant in two regards. 
+  - Firstly, while previous studies such as the Pew Research Center survey have examined the perception of climate change at the individual level, our project shifts the focus to the state level. This is important because states play a crucial role in combatting climate change and have a greater impact than individuals. 
+  - Secondly, our project assesses the actions taken by each state to quantify their efforts in addressing climate change, as opposed to perception. By doing so, we can accurately measure and compare the commitment of each state towards combating climate change.
+
 
 ## Result:
 
