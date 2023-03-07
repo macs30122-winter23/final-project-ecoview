@@ -7,9 +7,9 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 #Read data
-raw_df = pd.read_csv('../data/clean_data/final_data.csv')
-raw_df_capita = pd.read_csv('../data/clean_data/final_data_with_population.csv')
-political_leaning_all = pd.read_csv('../data/clean_data/political_leaning/political_leaning_2018-2021.csv')
+raw_df = pd.read_csv('../../data/clean_data/final_data.csv')
+raw_df_capita = pd.read_csv('../../data/clean_data/final_data_with_population.csv')
+political_leaning_all = pd.read_csv('../../data/clean_data/political_leaning/political_leaning_2018-2021.csv')
 
 #Rename columns
 raw_df.rename(columns={'year': 'Year', 'Good Day Ratio': 'Good_Day_Ratio', \
