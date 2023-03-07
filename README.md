@@ -1,12 +1,17 @@
 # Hi all, We are EcoView 
 
-We are dedicated to exploring the relationship between political leaning and sustainability in each state of the United States.
+We are dedicated to exploring the relationship between sustainability andpolitical leaning in each state of the United States.
 
 To achieve this goal, we have created a GitHub repository containing all the raw data and code used in our project. 
 
+# Background:
+
+Climate change has become a universal challenge that needs to be addressed urgently. According to the United Nation’s report, global greenhouse gas emissions need to reach net zero by 2050 to successfully halt climate change. Despite the urgency of such task, there is still a divide in the recognition of the urgency of climate change among partisan lines in the U.S.. In a survey conducted by Pew Research Center in 2020, 75% of Democrats think climate change should be a top priority for the president and the Congress, while only 21% of Republicans think the same.
+
+
 ## Our Project: 
 
-  - Exploring the Link between the Political Leaning & Sustainability of Each State In U.S.
+  - In accord with United Nation’s goal, we aim to explore the link between the Sustainability and Political Leaning of each state In U.S.
   - We define Political Leaning as the extent of a state being Democratic or Republican.
   - We conceptualize Sustainability as the efforts and effects of a state in conserving environment and using renewable resources.  
   - We break Sustainability down into four concepts: clean energy jobs, clean energy share, legislative efforts, and environmental quality.
