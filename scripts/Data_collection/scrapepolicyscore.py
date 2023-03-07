@@ -1,3 +1,7 @@
+'''
+This file is responsible for scraping the Policy_Efficiency_Score calculated by ACEEE from all U.S. states between the years 2018 and 2021.
+'''
+
 # Import necessary libraries
 import requests  # for making HTTP requests
 from bs4 import BeautifulSoup  # for parsing HTML content
