@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import statsmodels.api as sm
 
 #Read normalized data
-norm_df = pd.read_csv('../data/clean_data/all_data_norm.csv', index_col=0)
+norm_df = pd.read_csv('../../data/clean_data/all_data_norm.csv', index_col=0)
 
 #Create normalized dataframe for each year
 df_2018 = norm_df[norm_df['Year'] == 2018]
