@@ -19,10 +19,6 @@ To achieve this goal, we have created a GitHub repository containing all the raw
   - **Emission_per_capital, Policy_Score, Share** has a lag effect on Political leaning which aligns to our hypothesis
 
 
-
-
-
-
 ## Structure of our GitHub: 
 
 - [**Data**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/data)
@@ -65,6 +61,12 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 - [**Presentation**](https://github.com/macs30122-winter23/final-project-ecoview/tree/main/scripts)
   
   - [Slides (explictly illustrating our project and result)](https://github.com/macs30122-winter23/final-project-ecoview/blob/main/presentation/Ecoview.pptx)
+  
+## Division
+
+  - Violet Huang
+  - Hantao Xiao
+  - Anmin Yang
 
 ## Library
   - Pandas: 1.3.3
@@ -74,4 +76,5 @@ To achieve this goal, we have created a GitHub repository containing all the raw
   - Plotly: 5.4.0
   - Sklearn: 1.0
   - Statsmodels: 0.13.0
-
+  - re: 2.2.1
+  - tabula: 1.0.6
