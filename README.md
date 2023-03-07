@@ -66,7 +66,7 @@ To achieve this goal, we have created a GitHub repository containing all the raw
 ## Division
 
   - Violet Huang (details)
-  - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Analysis: (Panel Regression)}
+  - Hantao Xiao {Data collection: (Bill, Emission, Energy_Efficiency_score, Electricity_Generation_ratio), Preprocess:(Electricity_Generation_ratio, Emission_PER_CAPITAL), Analysis: (Panel Regression), Visualization: (Iterable Tableau Dashboard)}
   - Anmin Yang {Data collection: (Political Leaning, State Population, AQI), Preprocess: (good_day_ratio, political leaning missing value, final data incorpretation), Analysis: (dimension reduction), Visualization: (features on US map)}
 
 ## Library
