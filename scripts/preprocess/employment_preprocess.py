@@ -4,6 +4,8 @@ This file
 - deals with missing data by approximating it using linear regression
 - combines with other data sources to calculate the 3 variables mentioned above
 - exports the data needed in a csv file
+Note: Tabula, the package we used to scrape tabular data in pdf file, gives unstable results. With the same input, it sometimes give inconsistent output.
+This glitch means the preprocess code need to be modified according to the output file from data collection process
 '''
 
 #Import necessary packages
